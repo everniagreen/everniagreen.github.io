@@ -1,0 +1,161 @@
+{
+  "id": "./?app=lifeline",
+  "name": "LIFELINE · Offline Survival Companion · by Evernia Green",
+  "short_name": "LIFELINE",
+  "description": "Fully offline survival companion · compañero de supervivencia 100 % offline. 74 countries + detailed Spain map. English / Español. © 2026 Evernia Green.",
+  "lang": "es",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "background_color": "#0a0d0b",
+  "theme_color": "#0a0d0b",
+  "categories": [
+    "utilities",
+    "navigation",
+    "medical",
+    "travel"
+  ],
+  "icons": [
+    {
+      "src": "icon-48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "SOS",
+      "short_name": "SOS",
+      "url": "./index.html?go=sos",
+      "icons": [
+        {
+          "src": "shortcut-sos.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Brújula · Compass",
+      "short_name": "Brújula",
+      "url": "./index.html?go=compass",
+      "icons": [
+        {
+          "src": "shortcut-compass.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Frases · Phrases",
+      "short_name": "Frases",
+      "url": "./index.html?go=phrases",
+      "icons": [
+        {
+          "src": "shortcut-phrases.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Mapa · Map",
+      "short_name": "Mapa",
+      "url": "./index.html?go=map",
+      "icons": [
+        {
+          "src": "shortcut-map.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Enviar posición · Send position",
+      "short_name": "Posición",
+      "url": "./index.html?go=position",
+      "icons": [
+        {
+          "src": "shortcut-position.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
